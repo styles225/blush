@@ -15,13 +15,13 @@
 	font-size: $sc-font-size-xl;
 	background: none;
 	padding: $sc-padding-lv2;
-	color: $sc-color-secondary;
+	color: $sc-main-navigation-link-color;
 	cursor: pointer;
 	position: relative;
 	line-height: 34px;
 }
 .header-menu-search-link:hover {
-	color: $sc-color-theme-500;
+	color: $sc-color-tertiary;
 }
 .header-menu-search-link.active {
 	color: $sc-color-copy;

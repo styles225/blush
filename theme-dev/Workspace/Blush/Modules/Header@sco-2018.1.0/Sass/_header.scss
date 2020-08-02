@@ -386,7 +386,6 @@ $sc-sidebar-size: 246px;
 	text-align: right;
 	font-size: $sc-font-size-m;
 	color: $sc-color-secondary;
-	border-bottom: 1px solid $sc-top-menu-border-color;
 
 	@media(min-width: $screen-sm-min) {
 		display: block;
@@ -400,64 +399,62 @@ $sc-sidebar-size: 246px;
 
 	li a {
 		display: block;
-		// background-color: $sc-top-menu-link-background-color;
 		padding-top: $sc-padding-lv2;
 		padding-bottom: $sc-padding-lv2;
 		padding-left: $sc-padding-lv3 / 2;
 		padding-right: $sc-padding-lv3 / 2;
 
-		color: $sc-top-menu-link-text-color;
-		text-transform: $sc-top-menu-link-text-transform;
-		letter-spacing: $sc-top-menu-link-letter-spacing;
-		line-height: $sc-top-menu-link-line-height;
+		color: $sc-main-navigation-link-color;
+		text-transform: $sc-main-navigation-link-text-transform;
+		letter-spacing: $sc-main-navigation-link-letter-spacing;
+		// line-height: $sc-top-menu-link-line-height;
 
 		border-style: solid;
-		border-color: $sc-top-menu-link-border-color;
+		border-color: $sc-main-navigation-link-border-color;
 
-		border-top-width: $sc-top-menu-link-border-top-width;
-		padding-top: ($sc-padding-lv2) - ($sc-top-menu-link-border-top-width);
+		border-top-width: $sc-main-navigation-link-border-top-width;
+		padding-top: ($sc-padding-lv2) - ($sc-main-navigation-link-border-top-width);
 
-		border-bottom-width: $sc-top-menu-link-border-bottom-width;
-		padding-bottom: ($sc-padding-lv2) - ($sc-top-menu-link-border-bottom-width);
+		border-bottom-width: $sc-main-navigation-link-hover-border-bottom-width;
+		padding-bottom: ($sc-padding-lv2) - ($sc-main-navigation-link-hover-border-bottom-width);
 
 		&:hover {
-			background-color: $sc-top-menu-link-hover-background-color;
-			color: $sc-top-menu-link-hover-text-color;
+			color: $sc-main-navigation-link-hover-color;
 
 			border-style: solid;
-			border-color: $sc-top-menu-link-hover-border-color;
+			border-color: $sc-main-navigation-link-border-color;
 
-			border-top-width: $sc-top-menu-link-hover-border-top-width;
-			padding-top: ($sc-padding-lv2) - ($sc-top-menu-link-hover-border-top-width);
+			border-top-width: $sc-main-navigation-link-hover-border-top-width;
+			padding-top: ($sc-padding-lv2) - ($sc-main-navigation-link-hover-border-top-width);
 
-			border-bottom-width: $sc-top-menu-link-hover-border-bottom-width;
-			padding-bottom: ($sc-padding-lv2) - ($sc-top-menu-link-hover-border-bottom-width);
+			border-bottom-width: $sc-main-navigation-link-hover-border-bottom-width;
+			padding-bottom: ($sc-padding-lv2) - ($sc-main-navigation-link-hover-border-bottom-width);
 
 			i {
-				color: $sc-top-menu-link-hover-text-color;
+				color: $sc-main-navigation-link-hover-color;
 			}
 		}
 
 		&:active {
-			background-color: $sc-top-menu-link-active-background-color;
-			color: $sc-top-menu-link-active-text-color;
+			background-color: $sc-main-navigation-link-active-background-color;
+			color: $sc-main-navigation-link-active-color;
 
 			border-style: solid;
-			border-color: $sc-top-menu-link-active-border-color;
+			border-color: $sc-main-navigation-link-active-border-color;
 
-			border-top-width: $sc-top-menu-link-active-border-top-width;
-			padding-top: ($sc-padding-lv2) - ($sc-top-menu-link-active-border-top-width);
+			border-top-width: $sc-main-navigation-link-active-border-top-width;
+			padding-top: ($sc-padding-lv2) - ($sc-main-navigation-link-active-border-top-width);
 
-			border-bottom-width: $sc-top-menu-link-active-border-bottom-width;
-			padding-bottom: ($sc-padding-lv2) - ($sc-top-menu-link-active-border-bottom-width);
+			border-bottom-width: $sc-main-navigation-link-active-border-bottom-width;
+			padding-bottom: ($sc-padding-lv2) - ($sc-main-navigation-link-active-border-bottom-width);
 
 			i {
-				color: $sc-top-menu-link-active-text-color;
+				color: $sc-main-navigation-link-active-color;
 			}
 		}
 
 		i {
-			color: $sc-top-menu-link-text-color;
+			color: $sc-main-navigation-link-color;
 		}
 	}
 }

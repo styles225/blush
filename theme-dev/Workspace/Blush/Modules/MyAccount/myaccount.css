@@ -19266,7 +19266,6 @@ input.list-header-view-accordion-body-input {
   text-align: right;
   font-size: 1rem;
   color: #f08ccd;
-  border-bottom: 1px solid #d2e8f0;
 }
 
 @media (min-width: 768px) {
@@ -19298,8 +19297,7 @@ input.list-header-view-accordion-body-input {
 }
 
 .header-left-menu-options li a:hover {
-  background-color: #f1f8fa;
-  color: #198fec;
+  color: #f5ea77;
   border-style: solid;
   border-color: initial;
   border-top-width: 0;
@@ -19309,7 +19307,7 @@ input.list-header-view-accordion-body-input {
 }
 
 .header-left-menu-options li a:hover i {
-  color: #198fec;
+  color: #f5ea77;
 }
 
 .header-left-menu-options li a:active {
@@ -19358,7 +19356,7 @@ input.list-header-view-accordion-body-input {
   font-size: 1.2rem;
   background: none;
   padding: 10px;
-  color: #f08ccd;
+  color: #fff;
   cursor: pointer;
   position: relative;
   line-height: 34px;

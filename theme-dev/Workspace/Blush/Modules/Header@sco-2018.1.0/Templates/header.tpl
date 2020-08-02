@@ -3,12 +3,12 @@
 <div class="header-main-wrapper">
 	<div class="header-subheader">
 		<div class="header-subheader-container">
-			<span>Placeholder</span>
+			<div id="banner-header-top" class="content-banner banner-header-top" data-cms-area="header_banner_top" data-cms-area-filters="global"></div>
 		</div>
 	</div>
 	<nav class="header-main-nav">
 
-		<div id="banner-header-top" class="content-banner banner-header-top" data-cms-area="header_banner_top" data-cms-area-filters="global"></div>
+
 
 		<div class="header-sidebar-toggle-wrapper">
 			<button class="header-sidebar-toggle" data-action="header-sidebar-show">
